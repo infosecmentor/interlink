@@ -65,7 +65,7 @@ body {
 
 .heading_container {
   display: -webkit-box;
-  display: -ms-flexbox;
+  display: -ms-flexbox; 
   display: flex;
   color: black;
   
@@ -601,7 +601,7 @@ a:focus {
   padding: 10% 0;
   background-image: url(../images/arrangement.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  
   background-position: center;
 }
 
