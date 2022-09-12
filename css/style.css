@@ -67,7 +67,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: var(--color-white);
+  color: black;
+  
 }
 
 .heading_container h2 {
@@ -857,3 +858,4 @@ a:focus {
   color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
+

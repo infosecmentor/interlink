@@ -76,6 +76,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+
 }
 
 p {
@@ -4101,7 +4102,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color: #040505;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4155,6 +4156,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  color: black;
 }
 
 .navbar > .container,
@@ -4207,6 +4209,8 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-weight: 200;
+  color: black;
 }
 
 .navbar-collapse {
