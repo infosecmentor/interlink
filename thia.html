@@ -50,7 +50,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
-                <li class="nav-item ">
+                <!-- <li class="nav-item ">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
@@ -61,6 +61,33 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact us</a>
+                </li> -->
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="dropbtn"><a href="./index.html">Home</a></button>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="dropbtn"><a href="./about.html">Services</a></button>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button class="dropbtn"><a href="./contact.html">Contact Us</a></button>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                    <button onclick={myFunction()} class="dropbtn" data-toggle="dropdown-content" data-target="#myDropdown">Gallery</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="./sprayroses.html">Spray Roses</a>
+                      <a href="./premiumroses.html">Premium Roses</a>
+                      <a href="./gardenroses.html">Garden Roses</a>
+                      <a href="./hypericum.html">Hypericum</a>
+                      <a href="./alstroemeria.html">Alstroemeria</a>
+                    </div>
+                  </div>
                 </li>
               </ul>
 
